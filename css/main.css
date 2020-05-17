@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20pt;
+}
+.row {
+    height: 70px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.bkground-cinza {
+    background-color: #505152;
+    color: #FFF;
+    line-height: 240%;
+    margin-bottom: 10px;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-image: url("../img/bkground.jfif");
+    background-size: cover;
+}
+.btn {
+    background: #FFF;
+    width: 100% ;
+}
+
+#numerais {
+    margin-top: 20px;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculadora {
+    width: 400px;
+    background-color: #e5e5e5;
+}
+
+#visor {
+    background-color: #FFF;
+    height: 88%;
+    text-align: right;
+    line-height: 200%;
+}
+
+.centralizado {
+    text-align: center;
+}
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="calculadora">
+            <div class="row">
+                <div class="col centralizado bkground-cinza">
+                    Calculadora USJT
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 centralizado">
+                    <button class="btn" id="limpar">C</button>
+                </div>
+                <div class="col" id="visor">
+
+                </div>
+            </div>
+            <div id="numerais">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <button class="btn numeral" value="7">7</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <button class="btn numeral" value="8">8</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <button class="btn numeral" value="9">9</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <button class="btn operador" value="+">+</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <button class="btn numeral" value="4">4</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <button class="btn numeral" value="5">5</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <button class="btn numeral" value="6">6</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <button class="btn operador" value="-">-</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <button class="btn numeral" value="3">3</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <button class="btn numeral" value="2">2</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <button class="btn numeral" value="1">1</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <button class="btn operador" value="*">*</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 centralizado">
+                        <button class="btn numeral" value="0">0</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <button class="btn numeral" value=".">.</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <button class="btn operador" value="/">/</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button class="btn" id="igual">=</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Incluindo JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <!-- Incluindo nosso próprio script: -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
