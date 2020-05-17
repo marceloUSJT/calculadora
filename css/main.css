@@ -57,6 +57,7 @@ body {
     height: 88%;
     text-align: right;
     line-height: 200%;
+    border-radius: 5px;
 }
 
 .centralizado {
